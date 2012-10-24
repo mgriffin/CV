@@ -32,21 +32,39 @@
     \item Network analysis and monitoring;
     \item Support for exhibition interactive displays
   \end{itemize}
-  Projects implemented:%
-  \begin{itemize}
-    \item Virtualised server infrasturcture leading to reduced support calls and energy costs
-    \item Installed network monitoring using Nagios and Cacti
-    \item Introduced git as department side VCS
-    \item Introduced Jenkins CI to test and push out changes to internal and external facing websites
-    \item Upgraded network infrastructure to take advantage of Government Networks
-    \item Oversaw the introduction of SCCM to upgrade desktop computers and install new software packages
-    \item Participated in moving the hosting of the NMI website to an on-site solution
-    \item Specced and wrote a digital signage system that hooks up to a custom built calendar management system for Museum events
-    \item Continual upgrades and improvements to a bespoke education booking system written in ASP.Net with an MSSQL backend
-  \end{itemize}
+  \begin{description}%
+    \item[Virtualised server infrastructure leading to reduced support calls and energy costs] \
+      \newline{} By running virtualised servers, we can expand or contract the resources needed \
+      without down time. Also by using less physical servers, we saved significant energy costs.
+    \item[Installed network monitoring using Nagios and Cacti] \
+      \newline{} Using a disused server, this machine now monitors the switches, routers, servers and printers. \
+      We are notified of problems or potential problems before the users are aware of them and this leads to a \
+      higher perception of the ICT department.
+    \item[Introduced git as department side VCS] \
+      \newline{} All code and configuration files are now cersion controlled and easier to \
+      change and audit.
+    \item[Introduced Jenkins CI ] \
+      \newline{} Jenkins runs the tests needed to ensure that we haven't introduced any bugs \
+      when adding features and automatically pushes the code to the production site.
+    \item[Oversaw the introduction of SCCM] \
+      \newline{} We use SCCM to install new desktop machines and ensure that they have \
+      the correct configuration for the domain.
+    \item[Specced and wrote a digital signage system] \
+      \newline{} The backend is in PHP and allows the education staff to upload events \
+      as they plan them. This information can then be viewed by the public on screens in \
+      each reception area. The data is also used to create a quartetly calendar of events \
+      that is sent to museum subscribers
+    \item[Continual upgrades and improvements to a bespoke education booking system] \
+      \newline{} I am the main point of support for a system that the education department use \
+      to create and keep track of bookings. The system is written in ASP.NET and uses MSSQL \
+      as it's backend. Javascript is also used to provide a speedier user experience.
+    \item[Helped to install Openfire as a Jabber server for internal communication] \
+      \newline{} This was a proof of concept solution that was eventually demoted as there \
+      wasn't sufficient interest.
+  \end{description}
 }
 
-\cventry{2006--2007}{Lead Developer}{BlueCarrot Ltd.}{}{}{
+\cventry{2006--2007}{Lead Developer}{BlueCarrot Ltd}{}{}{
   \begin{itemize}%
     \item Developed a multi user online timesheet and course organisation system 
     \item Oversaw development of high profile sales site
@@ -54,26 +72,32 @@
 }
 
 \cventry{2004--2005}{Network Administrator}{Ordnance Survey Ireland}{}{}{
-  Administered LAN and WAN links using Cisco switches and PIX firewall
+  \begin{itemize}%
+    \item Administered LAN and WAN links using Cisco switches and PIX firewall
+  \end{itemize}
 }
 
 \cventry{2002--2004}{Helpdesk}{Ordnance Survey Ireland}{}{}{
-  Member of the helpdesk team supporting 120 people on two sites
+  \begin{itemize}%
+    \item Member of the helpdesk team supporting 120 people on two sites
+  \end{itemize}
 }
 
 \cventry{2000--2002}{Release Lab Engineer}{Symantec Ltd.}{}{}{
-  Responsible for final check of gold master localised versions of Symantec software\newline{}
-  Responsible for creating new test images that were pushed out to testing machines\newline{}
-  General desktop support
+  \begin{itemize}%
+    \item Responsible for final check of gold master localised versions of Symantec software
+    \item Created new test images that were pushed out to testing machines
+    \item General desktop support
+  \end{itemize}
 }
 
 \section{Technical Experience}
 \subsection{Proficient With}
-\cvitem{languages}{PHP, Ruby, Powershell, HTML, CSS}
-\cvitem{technologies}{Windows (Server and Desktop), Linux (Debian, Arch), OSX, Cisco PIX, MySQL, \LaTeX{}, git}
+\cvitem{languages}{PHP, Ruby, Bash, Powershell, HTML, CSS}
+\cvitem{technologies}{Jenkins CI, Windows (Server and Desktop), Linux (Debian, Arch), OSX, XMPP (Jabber), Cisco PIX, MySQL, \LaTeX{}, git}
 \subsection{Have Experience With}
 \cvitem{languages}{JavaScript, C, ASP.Net}
-\cvitem{technologies}{Jenkins CI, Checkpoint, MSSQL}
+\cvitem{technologies}{Checkpoint, MSSQL}
 
 \section{Education}
 \cventry{1995--1999}{B. Eng Electronic Engineering}{Dublin City University}{}{}{}
@@ -85,5 +109,8 @@ Also competed at 3 European Championships\newline{}
 Refereed at multiple World and European Championsips
 }
 \cvitem{Triathlon}{Completed Ironman Lanzarote in 2011}
-
+\cvitem{Athletics}{
+  Member of Liffey Valley AC\newline{}
+  Completed five marathons
+}
 \end{document}
